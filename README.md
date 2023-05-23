@@ -1,6 +1,6 @@
 # Azure Vwan lab
 
-This just creates a vwan and a hub and a couple of spoke vnets with VM's connected to the vhub. You'll be prompted for the resource group name, location where you want the resources created, your public ip and username and password to use for the VM's. NSG's are placed on the default subnets of each vnet allowing RDP access from your public ip.
+This just creates a vwan and a hub and a couple of spoke vnets with VM's connected to the vhub. You'll be prompted for the resource group name, location where you want the resources created, your public ip and username and password to use for the VM's. NSG's are placed on the default subnets of each vnet allowing RDP access from your public ip. This also creates a logic app that will delete the resource group in 24hrs.
 
 The topology will look like this:
 
